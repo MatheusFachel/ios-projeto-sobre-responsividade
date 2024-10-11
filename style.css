@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.main-content {
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/11/20/06/50/clean-3826677_1280.jpg); */
+
+    /* background-image: url(https://img.freepik.com/fotos-gratis/close-up-do-gerente-de-vendas-em-terno-preto-vendendo-o-carro-para-o-cliente_146671-14738.jpg?t=st=1728664570~exp=1728668170~hmac=e347a5b495f78a95654e949387788ff15a030a455292e4bfc1e7950924a2afa1&w=900); */
+
+    background-image: url(https://img.freepik.com/fotos-gratis/carro-luxuoso-estacionado-na-estrada-com-um-farol-iluminado-ao-por-do-sol_181624-60607.jpg?t=st=1728664739~exp=1728668339~hmac=cf0201e8bf967915d4c3ebe55b351c786de2e2b39900c1f7b6a6e3e28e1e8c36&w=900);
+
+    /* background-image: url(https://img.freepik.com/fotos-gratis/mecanico-que-da-chaves-para-o-cliente_1170-1432.jpg?t=st=1728665892~exp=1728669492~hmac=91547fdc75664e1a955210dca682feb0fbb1618baabc8744075a3a72c1247047&w=900); */
+
+    /* background-image: url(https://img.freepik.com/fotos-gratis/close-up-homem-testando-o-carro-na-concessionaria_23-2148333019.jpg?t=st=1728666059~exp=1728669659~hmac=538e13fb391f3331eb002b4eb8b8aad7ddffaf34a117f0aaf2c4c0577bcb179a&w=900); */
+
+    /* background-image: url(https://img.freepik.com/fotos-premium/vista-lateral-de-um-aperto-de-mao-de-duas-mulheres-contra-um-carro_146671-139045.jpg?ga=GA1.1.1344361418.1725653303); */
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    text-align: center;
+    color: #010101;
+}
+
+header {
+    /* margin-top: 20px;  */
+    margin-top: 0px;
+}
+
+header img {
+    width: 200px;
+    /* margin-bottom: 20px;  */
+}
+
+div{
+    background-color: #fdfdfd67;
+    border-radius: 3px;
+    border: 5px solid #1456ac;
+}
+
+.main-content h1, 
+.main-content h2, 
+.main-content p {
+    margin: 20px;
+    max-width: 800px; 
+}
+
+.main-content h1 {
+    font-size: 3.5rem;
+    font-family: Lexend;
+    /* text-shadow: #FC0 1px 0 10px; */
+}
+
+.main-content h2 {
+    font-size: 2rem;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; 
+}
+
+button:hover {
+    background-color: #FC0; 
+    color: #000000;
+      transition: all 0.3s;
+    }
+
+@media (max-width: 768px) {
+    .main-content {
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .main-content h1 {
+        font-size: 2rem;
+    }
+
+    .main-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-content p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
+
